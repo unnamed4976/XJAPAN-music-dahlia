@@ -1,0 +1,52 @@
+'use strict';
+
+{
+    
+  const date1 = document.getElementById('date1');
+  const date2 = document.getElementById('date2');
+  const date3 = document.getElementById('date3');
+  const date4 = document.getElementById('date4');
+
+  const btn1 = document.getElementById('btn1');
+  const btn2 = document.getElementById('btn2');
+  const btn3 = document.getElementById('btn3');
+  const btn4 = document.getElementById('btn4');
+
+  const ytb1 = document.getElementById('ytb1');
+  const ytb2 = document.getElementById('ytb2');
+  // const btn = document.querySelector('.btn');
+
+  btn1.addEventListener('click', () => {
+    date1.textContent = 'DAHLIA';
+    date2.classList.add('inactive');
+    ytb1.classList.remove('inactive');
+    btn1.classList.add('inactive');
+    btn2.classList.add('inactive');
+    // btn3.classList.add('inactive');
+    // btn4.classList.add('inactive');
+  });
+  
+  btn2.addEventListener('click', () => {
+    date1.classList.add('inactive');
+    date2.textContent = '「scars」';
+    ytb2.classList.remove('inactive');
+    btn1.classList.add('inactive');
+    btn2.classList.add('inactive');
+    // btn4.classList.add('inactive');
+  });
+
+  // btn3.addEventListener('click', () => {
+  //   date3.textContent = '「」';
+  //   btn1.classList.add('inactive');
+  //   btn2.classList.add('inactive');
+  //   btn4.classList.add('inactive');
+  // });
+
+  // btn4.addEventListener('click', () => {
+  //   date4.textContent = '「」';
+  //   btn1.classList.add('inactive');
+  //   btn2.classList.add('inactive');
+  //   btn3.classList.add('inactive');
+  // });
+
+}
